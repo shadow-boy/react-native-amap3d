@@ -74,7 +74,7 @@
 
 - (void)setDashed:(BOOL)dashed {
     _dashed = dashed;
-    _renderer.lineDash = dashed;
+    _renderer.lineDashType = kMALineDashTypeDot;
 }
 
 - (void)setGradient:(BOOL)gradient {
