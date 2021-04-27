@@ -99,7 +99,7 @@
         _renderer.lineWidth = _width;
         _renderer.strokeColor = _color;
         _renderer.strokeColors = _colors;
-        _renderer.lineDash = _dashed;
+        _renderer.lineDashType = kMALineDashTypeDot;
         _renderer.gradient = _gradient;
     }
     return _renderer;
